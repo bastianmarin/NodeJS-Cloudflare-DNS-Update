@@ -1,5 +1,29 @@
 {
   "dependencies": {
     "axios": "^1.7.9"
-  }
+  },
+  "name": "updatedns",
+  "version": "1.0.0",
+  "description": "update dns cloudflare",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node --env-file=.env index.js",
+    "dev": "node --watch --env-file=.env index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bastianmarin/NodeJS-Cloudflare-DNS-Update.git"
+  },
+  "keywords": [
+    "cloudflare",
+    "update",
+    "dns"
+  ],
+  "author": "iroak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bastianmarin/NodeJS-Cloudflare-DNS-Update/issues"
+  },
+  "homepage": "https://github.com/bastianmarin/NodeJS-Cloudflare-DNS-Update#readme"
 }

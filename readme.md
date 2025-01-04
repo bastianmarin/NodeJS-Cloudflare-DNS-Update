@@ -30,7 +30,7 @@ This project updates the DNS records of a domain using a DNS provider's API. (Cl
 
 2. Run the script:
     ```bash
-    node --env-file=.env index.js
+    npm run start
     ```
 
 ## Contributing
